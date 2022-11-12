@@ -24,11 +24,11 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sLv-vW-IhS">
                                 <rect key="frame" x="40" y="407" width="240" height="30"/>
                                 <fontDescription key="fontDescription" name="GameofThrones" family="Game of Thrones" pointSize="18"/>
-                                <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Show All Characters"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Show All Characters">
                                     <fontDescription key="titleFontDescription" name="GameofThrones" family="Game of Thrones" pointSize="13"/>
+                                    <color key="baseBackgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="TBF-cO-EWT" kind="presentation" modalPresentationStyle="fullScreen" id="rDq-BX-ihP"/>

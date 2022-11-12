@@ -139,13 +139,13 @@
 		8ECCD2CC291FDC08005BDCE8 /* GameOfThrones */ = {
 			isa = PBXGroup;
 			children = (
+				8E3F805E291FEEA70054CAF7 /* ViewControllers */,
 				8E3F8063291FEF720054CAF7 /* Views */,
+				8E3F8055291FEDB60054CAF7 /* App */,
 				8E3F805B291FEE220054CAF7 /* Models */,
 				8E3F8058291FEDFD0054CAF7 /* Services */,
-				8E3F8052291FE86E0054CAF7 /* Fonts */,
-				8E3F8055291FEDB60054CAF7 /* App */,
-				8E3F805E291FEEA70054CAF7 /* ViewControllers */,
 				8E3F8057291FEDE80054CAF7 /* Storyboards */,
+				8E3F8052291FE86E0054CAF7 /* Fonts */,
 				8E3F8056291FEDD50054CAF7 /* Resources */,
 			);
 			path = GameOfThrones;
