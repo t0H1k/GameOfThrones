@@ -1,6 +1,7 @@
 {
   "images" : [
     {
+      "filename" : "got image new.jpeg",
       "idiom" : "universal",
       "platform" : "ios",
       "size" : "1024x1024"
