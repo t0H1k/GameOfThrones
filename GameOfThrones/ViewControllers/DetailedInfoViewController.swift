@@ -31,6 +31,8 @@ class DetailedInfoViewController: UIViewController {
         familyLabel.text = character.family
         
         fetchImage()
+        
+
     }
     
     private func fetchImage() {
@@ -45,3 +47,4 @@ class DetailedInfoViewController: UIViewController {
         }
     }
 }
+

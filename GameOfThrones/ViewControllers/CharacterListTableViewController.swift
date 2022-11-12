@@ -15,10 +15,13 @@ class CharacterListTableViewController: UITableViewController {
         super.viewDidLoad()
         tableView.rowHeight = 100
         fetchCharacters()
+        
         let navigationBar = self.navigationController?.navigationBar
-        navigationBar?.barStyle = UIBarStyle.black
-        navigationBar?.tintColor = .white
-
+        navigationBar?.titleTextAttributes = [
+            .foregroundColor: UIColor.white,
+            .font: UIFont(name: "Game of Thrones", size: 21) ?? UIFont.systemFont(ofSize: 20)
+        ]
+        
     }
 
     // MARK: - Table view data source
